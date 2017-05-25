@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新用户注册</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+	<div class="all">
+		<!-- 头部 -->
+		<div class="allheader">
+			<div class="header">
+				<div class="headerleft">
+					<a href="index.html">
+						<img src="imgs/register-logo.png" alt="">
+					</a>
+					<span>
+						<img src="imgs/register1.jpg" alt="">
+					</span>
+				</div>
+				<div class="headerright">
+					<span>已有账号？</span>
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		<div class="allcontent">
+			<div class="content1">
+				<div class="con-phone">
+					<div class="conleft">手机号：</div>
+					<input class="conturnred contentphone" type="text" placeholder="请输入手机号码" />
+					<span class="con-title">请输入11位电话号码</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+					<span class="con-exist">该手机号已存在</span>
+				</div>
+				<div class="con-verify">
+					<div class="conleft">验证码：</div>
+					<input class="conturnred contentverify" type="text" placeholder="请输入图片内容" />
+					<div class="conright">
+						<span class="conrightimg"></span>
+						<span class="conrightchange">
+							<i class="conrightrotate"></i>
+							<b>换一换</b>
+						</span>
+					</div>
+					<span class="con-title">请输入4位验证码</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+				</div>
+				<div class="con-text">
+					<div class="conleft">短信验证码：</div>
+					<input class="contextclick" type="text" placeholder="验证码" />
+					<div class="contextve">获取验证码</div>
+					<span class="con-title">请输入短信验证码</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+				</div>
+				<div class="con-user">
+					<div class="conleft">用户名：</div>
+					<input class="conturnred contentuser" type="text" placeholder="用户名" />
+					<span class="con-title">请输入4-20位用户名</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+					<span class="con-exist">用户名已存在！</span>
+				</div>
+				<div class="con-password">
+					<div class="conleft">密码：</div>
+					<input class="conturnred contentpwd" type="password" placeholder="密码（8-20位，区分大小写）" />
+					<span class="con-title">请输入8-20位密码</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+				</div>
+				<div class="con-passwordstr">
+					<div class="conleft conleft1"></div>
+					<span class="contentpwdruo contentpwdstr1">弱</span>
+					<span class="contentpwdzhong contentpwdstr1">中</span>
+					<span class="contentpwdqiang contentpwdstr1">强</span>
+				</div>
+				<div class="con-confirm">
+					<div class="conleft">确认密码：</div>
+					<input class="conturnred contentconfirm" type="password" placeholder="确认密码" />
+					<span class="con-title">请输入确认密码</span>
+					<span class="con-ok"><img src="imgs/register-ok.jpg" alt=""></span>
+				</div>
+				<div class="con-read">
+					<div class="conleft"></div>
+					<input type="checkbox" checked="checked" />
+					<span>
+						<b>我已阅读并接受E宠</b>
+						<a href="javascript:;">《用户使用协议》</a>
+					</span>
+				</div>
+				<div class="con-regist">
+					<div class="conleft"></div>
+					<div class="con-registnow">立即注册</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="allfooter">
+			<div class="footer">
+				<div class="footertop">
+					<a href="index.html">E宠商城 丨</a>
+					<a href="index.html">淘宠 丨</a>
+					<a href="index.html">知识 丨</a>
+					<a href="index.html">游戏 丨</a>
+					<a href="index.html">关于我们 丨</a>
+					<a href="index.html"> 联系我们</a>
+				</div>
+				<div class="footerbottom">
+					渝ICP备13005525号-2   渝ICP备 10002905  增值电信业务经营许可证：渝B2-20140042   Copyright © 2007-2016 epet.com  重庆易宠科技有限公司
+				</div>
+			</div>
+		</div>
+	</div>
+	<script data-main="js/js/register.js" type="text/javascript" src="js/require.js" defer async="true"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+.all {
+  width: 100%;
+  min-height: 885px;
+  margin: 0 auto;
+}
+
+.allheader {
+  width: 100%;
+  height: 120px;
+  border-bottom: #ddd solid 1px;
+}
+
+.allheader .header {
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.allheader .header .headerleft {
+  margin-top: 30px;
+  width: 250x;
+  height: 60px;
+  float: left;
+}
+
+.allheader .header .headerleft a {
+  float: left;
+}
+
+.allheader .header .headerleft span {
+  float: left;
+}
+
+.allheader .header .headerright {
+  margin-top: 45px;
+  float: right;
+  width: 120px;
+  height: 21px;
+}
+
+.allheader .header .headerright span {
+  float: left;
+  width: 70px;
+  height: 21px;
+  line-height: 21px;
+  font-size: 14px;
+  margin: 1px 2px;
+}
+
+.allheader .header .headerright a {
+  float: left;
+  width: 32px;
+  height: 21px;
+  font-size: 16px;
+  color: #427fd2;
+}
+
+.allcontent {
+  width: 100%;
+  border-bottom: #ddd solid 1px;
+}
+
+.allcontent .content1 {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.allcontent .content1 input {
+  float: left;
+  height: 52px;
+  width: 413px;
+  border: #ddd solid 1px;
+  color: #ff6f4a;
+  border-radius: 5px;
+  font-size: 14px;
+  text-indent: 16px;
+}
+
+.allcontent .content1 .con-title,
+.allcontent .content1 .con-exist {
+  display: none;
+  float: left;
+  width: 154px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 14px;
+  padding: 0 10px;
+  color: #ff6f4a;
+  background: #fff3d9;
+  margin-left: 5px;
+}
+
+.allcontent .content1 .con-ok {
+  display: none;
+  float: left;
+  width: 19px;
+  height: 19px;
+  margin: 15px 0 0 10px;
+}
+
+.allcontent .content1 .conleft {
+  width: 200px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  text-align: right;
+  float: left;
+}
+
+.allcontent .content1 .con-phone,
+.allcontent .content1 .con-user,
+.allcontent .content1 .con-password,
+.allcontent .content1 .con-confirm {
+  margin-left: 100px;
+  width: 1100px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.allcontent .content1 .con-phone {
+  margin-top: 55px;
+}
+
+.allcontent .content1 .con-verify {
+  width: 1100px;
+  height: 54px;
+  margin: 0 0 10px 100px;
+}
+
+.allcontent .content1 .con-verify input {
+  width: 201px;
+}
+
+.allcontent .content1 .con-verify .conright {
+  margin-left: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 52px;
+  float: left;
+  line-height: 52px;
+}
+
+.allcontent .content1 .con-verify .conright .conrightimg {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
+  width: 99px;
+  height: 52px;
+  border-right: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.allcontent .content1 .con-verify .conright .conrightchange {
+  float: left;
+  width: 100px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.allcontent .content1 .con-verify .conright .conrightchange .conrightrotate {
+  width: 14px;
+  height: 15px;
+  float: left;
+  margin: 20px 5px 0 15px;
+  background: url(../imgs/register-refresh.jpg) no-repeat;
+  transition: 1s;
+}
+
+.allcontent .content1 .con-verify .conright .conrightchange b {
+  float: left;
+  height: 52px;
+  line-height: 52px;
+  color: #999;
+  margin-left: 5px;
+}
+
+.allcontent .content1 .con-verify .conright .conrightchange b:hover {
+  color: #427fd2;
+  cursor: pointer;
+}
+
+.allcontent .content1 .con-text {
+  margin-left: 100px;
+  width: 1100px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.allcontent .content1 .con-text input {
+  width: 253px;
+}
+
+.allcontent .content1 .con-text .contextve {
+  width: 149px;
+  border: #33cb98 solid 1px;
+  border-radius: 5px;
+  height: 52px;
+  line-height: 52px;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.allcontent .content1 .con-text .contextve:hover {
+  color: #fff;
+  background: #33cb98;
+}
+
+.allcontent .content1 .con-passwordstr {
+  display: none;
+  margin-left: 100px;
+  width: 1100px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.allcontent .content1 .con-passwordstr .conleft.conleft1 {
+  height: 20px;
+}
+
+.allcontent .content1 .con-passwordstr span {
+  width: 80px;
+  height: 20px;
+  background: #eee;
+  margin-right: 2px;
+  line-height: 20px;
+  color: #999;
+  float: left;
+  text-align: center;
+}
+
+.allcontent .content1 .con-read {
+  margin-left: 100px;
+  width: 1100px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.allcontent .content1 .con-read input {
+  width: 14px;
+  height: 14px;
+  margin: 2px 5px 0 0;
+}
+
+.allcontent .content1 .con-read b {
+  font-size: 14px;
+  color: #333;
+}
+
+.allcontent .content1 .con-read a {
+  color: #427fd2;
+  font-size: 14px;
+}
+
+.allcontent .content1 .con-regist {
+  margin-left: 100px;
+  width: 1100px;
+  height: 54px;
+  margin-bottom: 30px;
+}
+
+.allcontent .content1 .con-regist .con-registnow {
+  cursor: pointer;
+  float: left;
+  border-radius: 5px;
+  background: #ededed;
+  width: 413px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.allfooter {
+  width: 100%;
+  height: 177px;
+}
+
+.allfooter .footer {
+  width: 1100px;
+  height: 177px;
+  margin: 0 auto;
+  color: #999;
+}
+
+.allfooter .footer .footertop {
+  width: 820px;
+  height: 16px;
+  margin-left: 350px;
+  padding-top: 80px;
+}
+
+.allfooter .footer .footertop a {
+  color: #999;
+}
+
+.allfooter .footer .footertop a:hover {
+  color: #427fd2;
+}
+
+.allfooter .footer .footerbottom {
+  width: 820px;
+  height: 16px;
+  margin-left: 120px;
+  padding-top: 5px;
+}

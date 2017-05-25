@@ -1,0 +1,57 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend,
+i,
+b,
+textarea,
+input,
+button,
+pre,
+hr,
+blockquote {
+	margin: 0;
+	padding: 0;
+	font:12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+
+img,
+fieldset,
+li {
+	border: 0;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #248DCC;
+}
+input,
+a {
+	outline: none;
+}
+li {
+	list-style: none;
+}

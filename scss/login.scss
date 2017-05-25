@@ -1,0 +1,279 @@
+.all {
+	width: 100%;
+	min-height: 926px;
+	margin: 0 auto;
+}
+
+.allheader {
+	width: 100%;
+	height: 120px;
+	border-bottom: #ddd solid 1px;
+	.header {
+		width: 1100px;
+		height: 120px;
+		margin: 0 auto;
+		.headerleft {
+			margin-top: 30px;
+			width: 250x;
+			height: 60px;
+			float: left;
+			a {
+				float: left;
+			}
+		}
+		.headerright {
+			margin-top: 50px;
+			float: right;
+			width: 180px;
+			height: 21px;
+			a {
+				float: left;
+				width: 90px;
+				height: 19px;
+				font-size: 14px;
+				color: #666;
+			}
+			a:hover {
+				color: #427fd2;
+			}
+		}
+	}
+}
+.allcontent {
+	width: 100%;
+	height: 628px;
+	.content {
+		width: 1263px;
+		height: 628px;
+		margin: 0 auto;
+		position: relative;
+		background: url(../imgs/login-bg3.jpg) center no-repeat;
+		.login {
+			position: absolute;
+		    width: 340px;
+		    padding: 0 36px 30px;
+		    background: #fff;
+		    top: 70px;
+		    right: 88px;
+		    .loginctop {
+		    	width: 340px;
+		    	height: 68px;
+		    	span {
+		    		height: 67px;
+				    line-height: 80px;
+				    width: 50%;
+				    border-bottom: #ddd solid 1px;
+				    float: left;
+				    text-align: center;
+				    font-size: 14px;
+				    cursor: pointer;
+				    color: #999;
+		    	}
+		    	.loginclick {
+	    		    color: #000;
+					border-bottom: #33cb98 solid 1px;
+		    	}
+		    }
+		    .loginccontent {
+		    	width: 340px;
+		    	.loginclike {
+		    		    border: #ddd solid 1px;
+					    height: 45px;
+					    line-height: 45px;
+					    margin: 20px 0 0 0;
+					    padding: 0 0 0 15px;
+					    span {
+					    	float: left;
+					    	width: 23px;
+  							height: 19px;
+  							background: url(../imgs/loginicon.png) no-repeat;
+  							background-position: 0 0;
+  							margin-top: 15px;
+					    }
+					    input {
+					    	float: left;
+					    	height: 45px;
+						    line-height: 45px;
+						    width: 296px;
+						    border: none;
+						    text-indent: 2px;
+ 						    color: #999;
+ 						    font-size: 14px;
+					    }
+		    		}
+		    	.loginccon1 {
+		    		display: block;
+		    		width: 340px;
+		    		.logincpwd {
+		    			span {
+		    				background-position: 0 -28px;
+		    			}
+		    		}
+		    	}
+		    	.loginccon2 {
+		    		display: none;
+		    		span {
+		    			background: url(../imgs/loginicon2.png) no-repeat;
+		    		}
+		    		.logincphone {
+		    			span {
+		    				background-position: 0px -37px;
+		    			}
+		    		}
+		    		.logincverify {
+		    			width: 205px;
+		    			span {
+		    				background-position: 0px -68px;
+		    			}
+		    			input {
+		    				width: 150px;
+		    			}
+		    		}
+		    		.logincverify1 {
+		    			margin-top: 20px;
+					    width: 100px;
+					    padding: 0px;
+					    height: 45px;
+					    border: 1px solid #000;
+					    float: right;
+					    color: #000;
+					    font-size: 16px;
+					    font-weight: 600;
+					    cursor: pointer;
+					    text-align: center;
+					    line-height: 45px;
+		    		}
+		    		.logincdynamic {
+		    			width: 205px;
+		    			span {
+		    				background-position: 0px -11px;
+		    			}
+		    			input {
+		    				width: 150px;
+		    			}
+		    		}
+		    		.logincdynamic1 {
+					    width: 100px;
+					    float: right;
+					    cursor: pointer;
+					    text-align: center;
+					    border-radius: 5px;
+					    border: 1px solid #33cb98;
+					    height: 45px;
+					    line-height: 45px;
+					    margin-top: 20px;
+					    color: #000;
+		    		}
+		    		.logincdynamic1:hover {
+		    			background: #33cb98;
+		    			color: #fff;
+		    		}
+		    	}
+		    }
+		    .logincauto {
+		    	width: 340px;
+		    	height: 19px;
+		    	margin-top: 20px;
+		    	input {
+		    		float: left;
+		    		vertical-align: middle;
+		    		height: 19px;
+		    	}
+		    	span {
+		    		float: left;
+		    		font-size: 14px;
+		    		color: #666;
+		    		margin-left: 5px;
+		    	}
+		    	a {
+		    		float: right;
+		    		font-size: 14px;
+		    		color: #666;
+		    	}
+		    	a:hover {
+		    		color: #248DCC;
+		    	}
+		    }
+			.logincin {
+				background: #33cb98;
+			    width: 100%;
+			    height: 50px;
+			    line-height: 50px;
+			    border-radius: 5px;
+			    margin: 20px 0 15px;
+			    text-align: center;
+			    font-size: 20px;
+			    color: #fff;
+			    cursor: pointer;
+			}
+			.logincbottom {
+				width: 340px;
+				height: 48px;
+				color: #666;
+				span {
+					font-size: 14px;
+
+				}
+				a {
+					font-size: 14px;
+					float: right;
+				}
+				a:hover {
+					color: #248DCC;
+				}
+				div	{
+					margin-top: 10px;
+					a {
+						width: 23px;
+					    height: 19px;
+					    background:url(../imgs/loginicon.png) no-repeat;
+					    float: left;
+					    margin-right: 10px;
+					}
+					a:nth-of-type(1) {
+						background-position: 0 -86px; 
+					}
+					a:nth-of-type(2) {
+						background-position: 0 -170px; 
+					}
+					a:nth-of-type(3) {
+						background-position: 0 -116px; 
+					}
+					a:nth-of-type(4) {
+						background-position: 0 -144px; 
+					}
+					
+				}
+			}
+
+		}
+	}
+}
+.allfooter {
+	width: 100%;
+	height: 177px;
+	.footer {
+		width: 1100px;
+		height: 177px;
+		margin: 0 auto;
+		color: #999;
+		.footertop {
+			width: 820px;
+			height: 16px;
+			margin-left: 350px;
+			padding-top: 80px; 
+			a {
+				color: #999;
+			}
+			a:hover {
+				color: #427fd2;
+			}
+		}
+		.footerbottom {
+			width: 820px;
+			height: 16px;
+			margin-left: 120px;
+			padding-top: 5px;
+		}
+	}
+}
